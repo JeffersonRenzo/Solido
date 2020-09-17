@@ -1,0 +1,16 @@
+#version 330 core
+
+
+// Datos de Ouput
+out vec3 color;
+
+uniform float colorIn;
+
+void main(){
+
+	//color = vec3( 0.0f,1.0f,0.0f );
+	
+	color = vec3( 1.0f,colorIn,0.0f );
+	
+	
+}
